@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.head img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    float: right;
+    padding: 5px;
+}
+.head p{
+    float: right;
+    padding: 15px;
+    font-weight: bold;
+}
+.head p:hover{
+    text-decoration: underline;
+}
+.pic{
+    margin: 20% 40% 0% 40%;
+}
+.box{
+    margin:0px 39% ;
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 20%;
+}
+.box1{
+    margin-left: 37%;
+}
+
+.box1 p{
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color:rgba(216, 211, 211, 0.911);
+    border-radius: 10px;
+   display: inline-flex;
+   margin-top: 40px;
+   margin-left: 30px;
+   justify-content: center;
+    
+
+}
+
+.box1 p:hover{
+    border: 0.5px solid rgb(59, 58, 58);
+    background-color: rgba(247, 241, 241, 0.911);
+}
+
+.lang{
+    margin-top: 30px;
+    margin-left:43%;
+    
+}
+.lang a{
+    text-decoration: none;
+}
+.lang a:hover{
+    text-decoration: underline;
+}
